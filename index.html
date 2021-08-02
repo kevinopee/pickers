@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pickers</title>
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header id="header-container">
+    <nav class="nav-container" id="navbar">
+      <h1 class="nav-heading"><a href="#">Pickers</a></h1>
+      <ul>
+        <li><a href="#bg-color" id="plain">Plain Color</a></li>
+        <li><a href="#bg-color2" id="gradient">Gradient Color</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="bg-color" class="section-container">
+    <div class="content-container">
+      <h1>Plain Color</h1>
+      <h2 id="hex">#FFFFFF</h2>
+      <div class="btn" id="button1">Click</div>
+    </div>
+  </section>
+
+  <section id="bg-color2" class="section-container" style="display: none;">
+    <div class="content-container">
+      <h1>Gradient Color</h1>
+      <h2 id="hex2">#FFFFFF | #FFFFFF</h2>
+      <div class="btn2" id="button2">Click</div>
+    </div>
+  </section>
+
+  <footer id="footer-container">
+    <h4>&copy;2021. Pickers by kevinopee. All rights reserved.</h4>
+  </footer>
+
+  <script src="src/index.js"></script>
+</body>
+</html>
