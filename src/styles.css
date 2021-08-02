@@ -81,7 +81,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 81vh;
   background-color: var(--changeColor);
 }
 
@@ -151,4 +151,10 @@ body {
   bottom: 0;
   background: #fff;
   color: var(--primaryDarkColor);
+}
+
+@media screen and (min-height: 769px) {
+  .section-container {
+    height: 86vh;
+  }
 }
